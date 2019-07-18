@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <a href="https://redux.js.org/basics/usage-with-react">REDUX INSTRUCTIONS</a>
       </header>
     </div>
   );
