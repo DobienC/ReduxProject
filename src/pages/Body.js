@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import HomeContent from "../components/HomeContent";
+import BodyContent from "../components/BodyContent";
 
-class Home extends Component {
+class Body extends Component {
     state = {
     }
 
     render() {
         return (
             <div>
-                <HomeContent />
+                <BodyContent />
             </div>
         )
     }
 }
 
-export default Home;
+export default Body;

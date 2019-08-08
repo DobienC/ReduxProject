@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import HomeContent from "../components/HomeContent";
+import HeartContent from "../components/HeartContent";
 
-class Home extends Component {
+class Heart extends Component {
     state = {
     }
 
     render() {
         return (
             <div>
-                <HomeContent />
+                <HeartContent />
             </div>
         )
     }
 }
 
-export default Home;
+export default Heart;

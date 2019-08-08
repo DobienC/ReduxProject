@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import HomeContent from "../components/HomeContent";
+import SoulContent from "../components/SoulContent";
 
-class Home extends Component {
+class Soul extends Component {
     state = {
     }
 
     render() {
         return (
             <div>
-                <HomeContent />
+                <SoulContent />
             </div>
         )
     }
 }
 
-export default Home;
+export default Soul;
