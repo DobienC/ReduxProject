@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/NavbarContent";
 import Home from "./pages/Home";
 import Mind from "./pages/Mind";
 import Heart from "./pages/Heart";
@@ -10,9 +11,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-      </nav>
+      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/mind" component={Mind}/>
