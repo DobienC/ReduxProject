@@ -10,6 +10,9 @@ import './App.css';
 function App() {
   return (
     <Router>
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+      </nav>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/mind" component={Mind}/>
